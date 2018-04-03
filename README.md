@@ -1,6 +1,6 @@
 # Finding Minssing Cards
 
-##Prerequisite
+## Prerequisite
 
 Need Hadoop installed in the system
 Need Java installed in the system
@@ -8,29 +8,32 @@ Need Java installed in the system
 
 This Map Reduce Program will find missing poker cards from the deck of cards mentioned in input.txt and will provide output in the output folder
 
-###Compile program
+### Compile program
 
 ```
 javac -classpath ${HADOOP_CLASSPATH} -d MissingCards MissingCards.java
 ```
 
-###Adding Class files to jar
+### Adding Class files to jar
 
 ```
 jar -cvf MissingCards.jar -C MissingCards/ .
 ```
 
-###Run
+### Run
 
 ```
 hadoop jar MissingCards.jar /input.txt /output
 ```
 
-####Input format 
+#### Input format 
+
 ```
 Suite, Card_Number
 ```
-###Output format
+
+### Output format
+
 ```
 Suite	Card_Number
 ```

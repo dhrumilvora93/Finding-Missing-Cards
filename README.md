@@ -33,7 +33,7 @@ hadoop jar MissingCards.jar /input.txt /output
 Suite, Card_Number
 ```
 
-### Output format
+#### Output format
 
 ```
 Suite	Card_Number

@@ -1,5 +1,7 @@
 # Finding Minssing Cards
 
+This Map Reduce Program will find missing poker cards from the deck of cards mentioned in input.txt and will provide output in the output folder
+
 ## Prerequisite
 
 - Need Hadoop installed in the system
@@ -10,8 +12,6 @@
 
 #### Map Reduce Setup:
 [Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-install-hadoop-in-stand-alone-mode-on-ubuntu-16-04)
-
-This Map Reduce Program will find missing poker cards from the deck of cards mentioned in input.txt and will provide output in the output folder
 
 ### Compile program
 
